@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".fragmentsBotton.Frag_B_three">
 
-    <TextView
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:textSize="100sp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="3" />
 
-</FrameLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+
+        android:id="@+id/tablayout_in_bottom_Nav3"
+        android:layout_height="wrap_content">
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_in_bottom_Nav3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.sirwansoft.newall;
+package com.sirwansoft.newall.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.widget.FrameLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.sirwansoft.newall.R;
 import com.sirwansoft.newall.fragmentsBotton.Frag_B_One;
 import com.sirwansoft.newall.fragmentsBotton.Frag_B_three;
 import com.sirwansoft.newall.fragmentsBotton.Frag_B_two;
